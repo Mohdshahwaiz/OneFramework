@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="One Framework API Suite" verbose="2" parallel="classes">
+    <listeners>
+        <listener class-name="io.github.oneframework.testng.listeners.TestResultListener"/>
+    </listeners>
+    <test name="Test Rest API">
+        <classes>
+            <class name="io.github.oneframework.testng.api.restful.RestfulBookerEndToEndTests">
+                <methods>
+                    <include name="testCreateBooking"/>
+                    <include name="testGetBooking"/>
+                    <include name="testUpdateBooking"/>
+                    <include name="testUpdatePartialBooking"/>
+                    <include name="testDeleteBooking"/>
+                    <include name="testDeletedBooking"/>
+                    <include name="testJsonSchemaFileException"/>
+                </methods>
+            </class>
+            <class name="io.github.oneframework.testng.api.postman.ApiPostmanTest">
+                <methods>
+                    <include name="testFormBodyRequest"/>
+                </methods>
+            </class>
+            <class name="io.github.oneframework.testng.api.restful.DataDrivenBookingTest"/>
+            <class name="io.github.oneframework.testng.api.ssl.ApiSecurityTest"/>
+            <class name="io.github.oneframework.testng.api.others.ApiTests"/>
+        </classes>
+    </test>
+</suite>

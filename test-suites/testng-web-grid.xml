@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="One Framework Local Grid Web Suite" verbose="2" parallel="tests">
+    <listeners>
+        <listener class-name="io.github.oneframework.testng.listeners.TestResultListener"/>
+    </listeners>
+    <test name="Test web on Selenium Grid Browser">
+        <parameter name="platformType" value="WEB"/>
+        <parameter name="driverKey" value="test_selenium_grid"/>
+        <classes>
+            <class name="io.github.oneframework.testng.ui.saucedemo.SauceDemoTest"/>
+            <class name="io.github.oneframework.testng.ui.theinternet.AlertsTest"/>
+            <class name="io.github.oneframework.testng.ui.theinternet.CheckboxTest"/>
+            <class name="io.github.oneframework.testng.ui.theinternet.ContextMenuTest"/>
+            <class name="io.github.oneframework.testng.ui.theinternet.DoubleClickTest"/>
+            <class name="io.github.oneframework.testng.ui.theinternet.DragDropTest"/>
+            <class name="io.github.oneframework.testng.ui.theinternet.DropDownTest"/>
+            <class name="io.github.oneframework.testng.ui.theinternet.FileUploadTest"/>
+            <class name="io.github.oneframework.testng.ui.theinternet.FramesTest"/>
+            <class name="io.github.oneframework.testng.ui.theinternet.HoverTest"/>
+            <class name="io.github.oneframework.testng.ui.theinternet.WindowTest"/>
+        </classes>
+    </test>
+</suite>

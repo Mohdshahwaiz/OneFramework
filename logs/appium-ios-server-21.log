@@ -1,0 +1,79 @@
+2024-07-23 12:27:53:543 [Appium] Welcome to Appium v2.5.3 (REV bab86d5de571015b63fd8fc30b47bbe072a1290e)
+2024-07-23 12:27:53:544 [Appium] Non-default server args:
+2024-07-23 12:27:53:545 [Appium] { address: '127.0.0.1',
+2024-07-23 12:27:53:545 [Appium]   port: 4725,
+2024-07-23 12:27:53:545 [Appium]   sessionOverride: true,
+2024-07-23 12:27:53:546 [Appium]   useDrivers: [ 'xcuitest' ] }
+2024-07-23 12:27:53:546 [Appium] The autodetected Appium home path: /Users/appinventiv/.appium
+2024-07-23 12:27:53:547 [Appium] Attempting to load driver xcuitest...
+2024-07-23 12:27:53:548 [Appium] Requiring driver at /Users/appinventiv/.appium/node_modules/appium-xcuitest-driver/build/index.js
+2024-07-23 12:27:53:942 [Appium] XCUITestDriver has been successfully loaded in 0.395s
+2024-07-23 12:27:53:952 [Appium] Appium REST http interface listener started on http://127.0.0.1:4725
+2024-07-23 12:27:53:952 [Appium] Available drivers:
+2024-07-23 12:27:53:952 [Appium]   - uiautomator2@3.1.0 (automationName 'UiAutomator2')
+2024-07-23 12:27:53:953 [Appium]   - xcuitest@7.12.0 (automationName 'XCUITest')
+2024-07-23 12:27:53:953 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2024-07-23 12:27:53:995 [HTTP] --> GET /status
+2024-07-23 12:27:53:995 [HTTP] {}
+2024-07-23 12:27:53:995 [AppiumDriver@c988] Calling AppiumDriver.getStatus() with args: []
+2024-07-23 12:27:53:996 [AppiumDriver@c988] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.5.3","git-sha":"bab86d5de571015b63fd8fc30b47bbe072a1290e","built":"2023-12-05 21:50:27 -0800"}}
+2024-07-23 12:27:53:998 [HTTP] <-- GET /status 200 3 ms - 199
+2024-07-23 12:27:53:998 [HTTP] 
+2024-07-23 12:27:54:272 [HTTP] Request idempotency key: ca0378d6-f4ae-4dce-bfe6-06d21bb41158
+2024-07-23 12:27:54:278 [HTTP] --> POST /session
+2024-07-23 12:27:54:278 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":false,"appium:platformVersion":"16.2","appium:wdaStartupRetries":2,"appium:isHeadless":true,"appium:automationName":"XCuiTest","appium:wdaStartupRetryInterval":10000,"appium:deviceName":"iPhone 14","appium:usePrebuiltWDA":false,"appium:fullReset":false,"appium:wdaLaunchTimeout":120000,"appium:maxTypingFrequency":25,"appium:autoDismissAlerts":false,"appium:wdaLocalPort":8100,"appium:clearSystemFiles":true,"appium:useNewWDA":false,"appium:wdaConnectionTimeout":120000,"appium:simulatorStartupTimeout":180000,"platformName":"IOS","appium:autoAcceptAlerts":true,"appium:app":"/Users/appinventiv/Downloads/one-framework/src/test/resources/apps/ios/sauce-demo.zip","appium:connectHardwareKeyboard":true}}}
+2024-07-23 12:27:54:279 [AppiumDriver@c988] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":false,"appium:platformVersion":"16.2","appium:wdaStartupRetries":2,"appium:isHeadless":true,"appium:automationName":"XCuiTest","appium:wdaStartupRetryInterval":10000,"appium:deviceName":"iPhone 14","appium:usePrebuiltWDA":false,"appium:fullReset":false,"appium:wdaLaunchTimeout":120000,"appium:maxTypingFrequency":25,"appium:autoDismissAlerts":false,"appium:wdaLocalPort":8100,"appium:clearSystemFiles":true,"appium:useNewWDA":false,"appium:wdaConnectionTimeout":120000,"appium:simulatorStartupTimeout":180000,"platformName":"IOS","appium:autoAcceptAlerts":true,"appium:app":"/Users/appinventiv/Downloads/one-framework/src/test/resources/apps/ios/sauce-demo.zip","appium:connectHardwareKeyboard":true}}]
+2024-07-23 12:27:54:279 [AppiumDriver@c988] Event 'newSessionRequested' logged at 1721737674279 (17:57:54 GMT+0530 (India Standard Time))
+2024-07-23 12:27:54:280 [Appium] Attempting to find matching driver for automationName 'XCuiTest' and platformName 'IOS'
+2024-07-23 12:27:54:280 [Appium] The 'xcuitest' driver was installed and matched caps.
+2024-07-23 12:27:54:280 [Appium] Will require it at /Users/appinventiv/.appium/node_modules/appium-xcuitest-driver
+2024-07-23 12:27:54:281 [Appium] Requiring driver at /Users/appinventiv/.appium/node_modules/appium-xcuitest-driver/build/index.js
+2024-07-23 12:27:54:281 [AppiumDriver@c988] Appium v2.5.3 creating new XCUITestDriver (v7.12.0) session
+2024-07-23 12:27:54:281 [AppiumDriver@c988] Checking BaseDriver versions for Appium and XCUITestDriver
+2024-07-23 12:27:54:281 [AppiumDriver@c988] Appium's BaseDriver version is 9.5.4
+2024-07-23 12:27:54:281 [AppiumDriver@c988] XCUITestDriver's BaseDriver version is 9.5.4
+2024-07-23 12:27:54:281 [AppiumDriver@c988] There are no active sessions for cleanup
+2024-07-23 12:27:54:283 [XCUITestDriver@435b] Creating session with W3C capabilities: {
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]   "alwaysMatch": {
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "platformName": "IOS",
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:noReset": false,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:platformVersion": "16.2",
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:wdaStartupRetries": 2,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:isHeadless": true,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:automationName": "XCuiTest",
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:wdaStartupRetryInterval": 10000,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:deviceName": "iPhone 14",
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:usePrebuiltWDA": false,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:fullReset": false,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:wdaLaunchTimeout": 120000,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:maxTypingFrequency": 25,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:autoDismissAlerts": false,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:wdaLocalPort": 8100,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:clearSystemFiles": true,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:useNewWDA": false,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:wdaConnectionTimeout": 120000,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:simulatorStartupTimeout": 180000,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:autoAcceptAlerts": true,
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:app": "/Users/appinventiv/Downloads/one-framework/src/test/resources/apps/ios/sauce-demo.zip",
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     "appium:connectHardwareKeyboard": true
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]   },
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]   "firstMatch": [
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]     {}
+2024-07-23 12:27:54:283 [XCUITestDriver@435b]   ]
+2024-07-23 12:27:54:283 [XCUITestDriver@435b] }
+2024-07-23 12:27:54:286 [XCUITestDriver@435b (bb654e74)] Session created with session id: bb654e74-3999-45d4-9431-4dd9230c59cf
+2024-07-23 12:27:54:291 [XCUITest] Current user: 'appinventiv'
+2024-07-23 12:27:54:291 [XCUITestDriver@435b (bb654e74)] No real device udid has been provided in capabilities. Will select a matching simulator to run the test.
+2024-07-23 12:27:54:296 [XCUITestDriver@435b (bb654e74)] iOS SDK Version set to '17.5'
+2024-07-23 12:27:54:470 [XCUITestDriver@435b (bb654e74)] {}
+2024-07-23 12:27:54:471 [DevCon Factory] Neither device UDID nor local port is set. Did not know how to release the connection
+2024-07-23 12:27:54:471 [AppiumDriver@c988] Event 'newSessionStarted' logged at 1721737674471 (17:57:54 GMT+0530 (India Standard Time))
+2024-07-23 12:27:54:496 [AppiumDriver@c988] Encountered internal error running command: Error: '16.2' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 17.5, 17.4
+2024-07-23 12:27:54:497 [AppiumDriver@c988]     at Simctl.getDevices (/Users/appinventiv/.appium/node_modules/appium-xcuitest-driver/node_modules/node-simctl/lib/subcommands/list.js:172:9)
+2024-07-23 12:27:54:497 [AppiumDriver@c988]     at XCUITestDriver.getExistingSim (/Users/appinventiv/.appium/node_modules/appium-xcuitest-driver/lib/simulator-management.js:103:39)
+2024-07-23 12:27:54:497 [AppiumDriver@c988]     at XCUITestDriver.determineDevice (/Users/appinventiv/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:1253:22)
+2024-07-23 12:27:54:497 [AppiumDriver@c988]     at XCUITestDriver.start (/Users/appinventiv/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:494:40)
+2024-07-23 12:27:54:497 [AppiumDriver@c988]     at XCUITestDriver.createSession (/Users/appinventiv/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:419:7)
+2024-07-23 12:27:54:497 [AppiumDriver@c988]     at AppiumDriver.createSession (/Users/appinventiv/.nvm/versions/node/v21.7.3/lib/node_modules/appium/lib/appium.js:717:35)
+2024-07-23 12:27:54:501 [HTTP] <-- POST /session 500 223 ms - 834
+2024-07-23 12:27:54:501 [HTTP] 

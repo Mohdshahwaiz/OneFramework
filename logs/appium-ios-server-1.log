@@ -1,0 +1,18 @@
+2024-07-23 18:04:49:709 [Appium] Welcome to Appium v2.5.3 (REV bab86d5de571015b63fd8fc30b47bbe072a1290e)
+2024-07-23 18:04:49:711 [Appium] Non-default server args:
+2024-07-23 18:04:49:712 [Appium] { address: '127.0.0.1',
+2024-07-23 18:04:49:712 [Appium]   callbackPort: 4726,
+2024-07-23 18:04:49:712 [Appium]   debugLogSpacing: true,
+2024-07-23 18:04:49:712 [Appium]   localTimezone: true,
+2024-07-23 18:04:49:713 [Appium]   loglevel: 'info',
+2024-07-23 18:04:49:713 [Appium]   logTimestamp: true,
+2024-07-23 18:04:49:713 [Appium]   longStacktrace: true,
+2024-07-23 18:04:49:713 [Appium]   sessionOverride: true,
+2024-07-23 18:04:49:713 [Appium]   useDrivers: [ 'xcuitest' ] }
+2024-07-23 18:04:49:714 [Appium] Attempting to load driver xcuitest...
+2024-07-23 18:04:50:157 [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+2024-07-23 18:04:50:157 [Appium] Available drivers:
+2024-07-23 18:04:50:157 [Appium]   - uiautomator2@3.1.0 (automationName 'UiAutomator2')
+2024-07-23 18:04:50:157 [Appium]   - xcuitest@7.12.0 (automationName 'XCUITest')
+2024-07-23 18:04:50:158 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2024-07-23 18:06:02:475 [HTTP] --> GET /status
